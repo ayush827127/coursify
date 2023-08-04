@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+
+/* Basic styling, adjust as needed */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+a {
+    color: red;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 4;
+}
+
+.bg-light {
+    background-color: white !important;
+}
+
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: black;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+}
+
+.navbar-brand {
+    display: inline-block;
+    margin-right: -10rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+
+.img-fluid {
+    max-width: 17%;
+    border-radius: 50px;
+    height: auto;
+    width: 218px;
+    margin-left: 2rem;
+}
+
+
+.hero {
+    background-image: url("Header.svg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: left;
+    padding: 100px 0;
+}
+
+.hero h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 40px;
+    width: 50%;
+    color: black;
+}
+
+.btn {
+    display: inline-block;
+    background-color: black;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 17px;
+}
+
+.about {
+    background-color: #c3eff3;
+    padding: 100px 0;
+    text-align: center;
+    color: #416571;
+    font-weight: bold;
+}
+
+.about h2 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.features {
+    padding: 100px 0;
+    text-align: center;
+    background-color: #7083f57d;
+    font-weight: bold;
+}
+
+.features h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.feature {
+    margin-bottom: 40px;
+}
+
+.feature i {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.contact {
+    background-color: #f9f9f9;
+    background-image: url("Contact3.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    text-align: right;
+    font-weight: bold;
+}
+
+.contact h2 {
+    font-size: 30px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+    width: 82%;
+}
+.contact p {
+    width: 50%;
+    margin-left: 50%;
+    text-align: justify;
+}
+.contact .btn {
+    margin-right: 20%;
+
+}
+
+footer{
+    background-color: black;
+    height: 4rem;
+    color: white;
+}
+footer p{
+    text-align: center;
+}
